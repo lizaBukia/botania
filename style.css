@@ -1,0 +1,60 @@
+/* General styles */
+
+.section {
+    width: 100%;
+}
+
+.section__content {
+    max-width: 1400px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.heading__color--dark {
+    color: #343D33;
+}
+
+.heading__color--light {
+    color: #FFFFFF;
+} 
+
+.dark__bg{
+    background-color: #343D33;
+}
+
+.light__bg{
+    background-color: #FFFFFF;
+}
+
+.copywright__bg{
+    background-color: #414840;
+}
+
+
+
+
+/* typography */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 45px;
+    font-weight: 400;
+}
