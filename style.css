@@ -89,6 +89,18 @@ body {
     background-color: #475F45;
     color: #FFFFFF;
 }
+.border-padding{
+    padding-bottom: 20px;
+}
+.padding-top{
+    padding-top: 20px;
+}
+.updates-gap{
+    gap: 50px;
+}
+.news__height{
+    height: 860px;
+}
 
 
 
@@ -206,6 +218,52 @@ h1, h2, h3, h4, h5, h6 {
 
 /* news section */
 
+.news-bg{
+    background-image: url(./images/Frame.svg);
+    background-repeat: no-repeat;
+    background-position: right top -180px;
+}
+.news-gap{
+    gap: 12px;
+}
+.news__heading--font{
+    font-size: 14px;
+    color: #475F45;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+}
+.news__heading{
+    color: #343D33;
+
+}
+.news-main__Description{
+    max-width: 519px;
+}
+.news__margin{
+    margin-top: 48px;
+}
+.news-main-gap{
+    gap: 20px;
+}
+.News__heading--color{
+    font-size: 23px;
+    color: #475F45;
+    font-weight: 700;
+}
+.news__text--color{
+    color: #343D33;
+    font-weight: 400;
+}
+.italic{
+    font-style: italic;
+}
+.text-width{
+    max-width: 354px;
+    line-height: 24px;
+}
+.border-top{
+    border-top: 1px solid #C4C4C4;
+}
 
 
 
@@ -214,7 +272,17 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
+@media screen and (max-width: 1179px){
+    .news__height{
+        height: 1250px;
+    }
+    .plants-blog{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+ 
+}
 
 @media screen and (max-width: 1025px){
     .navigation{
@@ -237,6 +305,16 @@ h1, h2, h3, h4, h5, h6 {
         gap: 20px;
 
     }
+    .news__height{
+        height: 1250px;
+    }
+    .main__image{
+        width: 392px;
+    }
+    .italic{
+        text-align: center;
+      }
+   
 }
 
 @media screen and (max-width: 916px){
@@ -275,8 +353,20 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
         align-items: center;
         gap: 20px;
-
     }
+    .plants-blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .news__height{
+        height: 1700px;
+    }
+    .enviroment{
+        width: 392px;
+    }
+    .italic{
+        text-align: center;
+      }
 }
 
 @media screen and (max-width: 430px){
@@ -296,6 +386,15 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
         gap: 20px;
     }
+    .news__height{
+        height: 1700px;
+    }
+    .enviroment{
+        width: 310px;
+    }
+  .italic{
+    text-align: center;
+  }
 }
 
 
